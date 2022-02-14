@@ -42,7 +42,6 @@ const addUser = (request, response, body) => {
 
   if (responseCode === 201) {
     responseJSON.message = 'Created Successfully';
-    respondJSON(request, response, responseCode, responseJSON);
     return respondJSON(request, response, responseCode, responseJSON);
   }
 
